@@ -13,6 +13,8 @@
     Nginx 1.15.8
     PostgreSQL
 
+0:rails new
+    docker-compose run app rails new . --force --no-deps --database=postgresql
 
 １：イメージのビルドコマンド
     docker-compose build
