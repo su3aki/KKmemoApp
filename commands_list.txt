@@ -1,0 +1,38 @@
+□docker を使用した　rails　環境構築手順
+
+・参考URL
+    https://qiita.com/naokit-dev/items/66d8fd40ce01d1aeea02
+
+・各種ソフトウェア類バージョン
+    Mac OS (Mojave)
+    Docker for Mac, Docker composeインストール済み
+
+・コンテナ内で使用するソフトウェアのバージョン
+    Ruby 2.5
+    Rails 5.2.4.3
+    Nginx 1.15.8
+    PostgreSQL
+
+
+１：イメージのビルドコマンド
+    docker-compose build
+
+2:config配下のファイルを書き換えるシェル
+    sh modify_config_puma.sh
+
+3：コンテナ起動コマンド
+    docker-compose up -d
+
+4：コンテナ一覧確認コマンド
+    docker ps -a
+
+5：コンテナに対してコマンドを実行するコマンド
+    docker-compose run app rake db:create
+
+6: コンテナに対して入るコマンド
+    docker exec -it container_name /bin/bash
+
+
+参考コマンド
+    docker-composeで立ち上げたコンテナ類をストップする
+        docker-compose down
