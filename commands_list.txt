@@ -34,7 +34,6 @@
 6: コンテナに対して入るコマンド
     docker exec -it container_name /bin/bash
 
-
 参考コマンド
     docker-composeで立ち上げたコンテナ類をストップする
         docker-compose down
