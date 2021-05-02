@@ -40,6 +40,7 @@
  ### 4 Git Hub にてPullRequest用いたレビュー方法
 
  ```
+ # 元のブランチ名#バックログのカードの名前
  # trelloの[xxxレビュー]xxx カードを作成しレビュー待ちに追加
  # 作成したカードにpullrequestの説明にのURLを記載
  ```
