@@ -26,13 +26,3 @@
 #### ボタン:edit
 
     Link to /users/:id/edit
-
-## 関連するアクション
-
-#### /users からの http リクエスト
-
-/users における**destroy ボタン**から対象 id の/users/:id へ**DELETE**メソッドが走る
-
-#### /users/edit からの http リクエスト
-
-/users/:id/edit における**Update User ボタン**から対象 id の/users/:id へ**PATCH**メソッドが走る
