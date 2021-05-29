@@ -7,8 +7,6 @@
 | URL           | アクション | http メソッド |
 | ------------- | ---------- | ------------- |
 | /users/:id    | show       | GET           |
-| /users/:id 　 | update     | PATCH         |
-| /users/:id 　 | destroy    | DELETE        |
 
 ## ページ内の要素
 
