@@ -24,3 +24,12 @@
 #### ボタン:edit
 
     Link to /users/:id/edit
+    
+  
+## 関連するアクション
+
+#### showアクション
+関連するuser_idのuser_nameとuser_emailをデータベースへGETリクエストしレンダリングする
+
+#### updateアクション(/users/edit からの httpリクエスト)
+/users/:id/edit における**Update User ボタン**から対象 id の/users/:id へ**PATCH**メソッドが走る
