@@ -47,7 +47,7 @@ state ユーザー情報編集#lightgreen
 ユーザー情報編集-->ユーザー詳細表示: update success
 ユーザー情報編集-->ユーザー詳細表示: back
 
-ユーザー新規作成-->ユーザ詳細表示: create success
+ユーザー新規作成-->ユーザー詳細表示: create success
 
 state マイクロポスト一覧#FFF
 マイクロポスト一覧: /microposts
